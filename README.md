@@ -1,5 +1,27 @@
 # RESAT FRONT-END CHALLENGE
 
-### 언어
-<img src="https://img.shields.io/badge/JavaScript-#F7DF1E?style=flat&logo=javascript&logoColor=white"/>
-	![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+10일 프론트 개발 챌린지 2024.1.19~2024.2.9
+
+- 언어 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+
+## 1일차
+GITHUB에 프로젝트 레포지토리 만들기
+
+## 2일차
+
+## 3일차
+
+## 4일차
+
+## 5일차
+
+## 6일차
+
+## 7일차
+
+## 8일차
+
+## 9일차
+
+## 10일차
