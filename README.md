@@ -10,6 +10,8 @@ GITHUB에 프로젝트 레포지토리 만들기
 ## 2일차
 카운트다운 타이머 만들기
 
+![Uploading video1488833296-ezgif.com-video-to-gif-converter (1).gif…]()
+
 ## 3일차
 
 ## 4일차
