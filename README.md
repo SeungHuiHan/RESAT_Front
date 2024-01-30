@@ -9,6 +9,7 @@ GITHUB에 프로젝트 레포지토리 만들기
 
 ## 2일차
 카운트다운 타이머 만들기
+![video1488833296-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/9a5e7ec2-df05-4f8e-b33e-007cdf72e614)
 
 ## 3일차
 
