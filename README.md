@@ -15,6 +15,17 @@ GITHUB에 프로젝트 레포지토리 만들기
 ## 3일차
 TO-DO LIST만들기
 
+[요약]
+- 할 일 작성 후 우선순위 지정
+  ![video4640473866-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/4c34b185-8ead-4088-91db-53b5917c6a32)
+
+- 할 일 목록을 체크 박스 체크에 따라 완료/미완료로 구분
+ ![video5640473866-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/4a731605-e533-424c-835f-137fe42a204e)
+
+- 오래된순/최신순/우선순위 높은순/우선순위 낮은 순으로 정렬 가능
+  ![video6640473866-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/44889135-75ba-4c2e-b4f6-f6b79e46d23e)
+
+
 ## 4일차
 
 ## 5일차
