@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO List</title>
+    <style>
+      .container {
+        background-color: #d7d8d9;
+        border-radius: 0px;
+        margin: auto;
+        width: 800px;
+        height: 500px;
+        display: grid;
+      }
+      header {
+        margin-left: 50px;
+      }
+      button {
+        background-color: #e6eef0;
+        font-size: 15px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 10px;
+      }
+      .filterListSection {
+        text-align: center;
+      }
+      .taskSection {
+        text-align: center;
+      }
+      .sortSection {
+        text-align: right;
+        margin-right: 10px;
+      }
+
+      #taskList {
+        overflow-y: auto; /* 스크롤되도록 설정 */
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body bgcolor="black">
+    <div class="container">
+      <div class="container_mini">
+        <header>
+          <h1>TO-DO LIST</h1>
+        </header>
+        <div class="filterListSection">
+          <button onclick="filterList('all')">전체</button>
+          <button onclick="filterList('completed')">완료</button>
+          <button onclick="filterList('incompleted')">미완료</button>
+        </div>
+
+        <div class="taskSection">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="할 일을 작성해주세요"
+            style="width: 200px; height: 20px; font-size: 15px"
+          />
+          <select
+            id="prioritySelect"
+            style="width: 100px; height: 25px; font-size: 15px"
+          >
+            <option value="낮음" selected>낮음</option>
+            <option value="보통">보통</option>
+            <option value="높음">높음</option>
+            <option value="아주 높음">아주 높음</option>
+          </select>
+          <button onclick="addTask()">추가</button>
+        </div>
+        <div class="sortSection">
+          <select
+            id="sortList"
+            onchange="sortList()"
+            style="width: 140px; height: 20px; font-size: 15px"
+          >
+            <option value="오래된순" selected>오래된순</option>
+            <option value="최신순">최신순</option>
+            <option value="우선순위 높은순">우선순위 높은순</option>
+            <option value="우선순위 낮은순">우선순위 낮은순</option>
+          </select>
+        </div>
+        <hr color="black" />
+      </div>
+
+      <div id="taskList">
+        <!-- 할 일 목록이 여기에 나열됩니다 -->
+      </div>
+    </div>
+
+    <script>
+      // 할 일 목록을 저장할 배열
+      let tasks = [];
+
+      function addTask() {
+        // 입력된 내용과 우선순위 가져오기
+        let taskInput = document.getElementById("taskInput");
+        let prioritySelect = document.getElementById("prioritySelect");
+        let task = taskInput.value;
+        let priority = prioritySelect.value;
+
+        // 현재 시간을 기록
+        let timestamp = new Date().getTime();
+
+        // 배열에 할 일 추가
+        tasks.push({
+          task: task,
+          priority: priority,
+          completed: false,
+          timestamp: timestamp,
+        });
+
+        // 할 일 목록 갱신
+        updateTaskList();
+
+        // 입력 필드 초기화
+        taskInput.value = "";
+      }
+
+      // 할 일 목록을 갱신하는 함수
+      function updateTaskList() {
+        let taskListContainer = document.getElementById("taskList");
+        taskListContainer.innerHTML = ""; // 목록 초기화
+
+        // 배열에 있는 할 일들을 목록에 추가
+        for (let i = 0; i < tasks.length; i++) {
+          let taskItem = document.createElement("div");
+          taskItem.id = `taskItem_${i}`; // 각 항목에 고유한 ID 부여
+          taskItem.innerHTML = `
+                    <input type="checkbox" onchange="toggleCompletion(${i})" ${
+            tasks[i].completed ? "checked" : ""
+          }>
+                    <span>${tasks[i].task}</span>
+                    <span> &nbsp;&nbsp;우선순위: ${tasks[i].priority}</span>
+                    <span style="display:none;">입력 시간: ${
+                      tasks[i].timestamp
+                    }</span>
+                    <button onclick="editTask(${i})">수정</button>
+                `;
+          taskListContainer.appendChild(taskItem);
+        }
+      }
+
+      // 할 일의 완료 상태를 변경하는 함수
+      function toggleCompletion(index) {
+        // 체크박스의 상태를 변경
+        tasks[index].completed = !tasks[index].completed;
+
+        // 할 일 목록 갱신
+        updateTaskList();
+      }
+
+      //체크박스 유무에 따라 전체, 완료, 미완료 페이지
+      function filterList(filterType) {
+        for (let i = 0; i < tasks.length; i++) {
+          let listItem = document.getElementById(`taskItem_${i}`);
+
+          if (
+            (filterType === "completed" && tasks[i].completed) ||
+            (filterType === "incompleted" && !tasks[i].completed) ||
+            filterType === "all"
+          ) {
+            listItem.style.display = "block";
+          } else {
+            listItem.style.display = "none";
+          }
+        }
+      }
+
+      // 할 일 목록을 수정하는 함수
+      function editTask(index) {
+        // 수정할 내용을 입력받음
+        let newTask = prompt("수정할 내용을 입력하세요", tasks[index].task);
+
+        // 우선순위 수정 입력 받기
+        let newPriority = prompt(
+          "우선순위를 수정하시겠습니까\n 낮음, 보통, 높음, 매우 높음 중에 우선사항을 입력하세요 ",
+          tasks[index].priority
+        );
+
+        while (
+          newPriority !== null &&
+          !["낮음", "보통", "높음", "매우 높음"].includes(newPriority)
+        ) {
+          alert("낮음, 보통, 높음, 매우 높음 중에 입력하세요. 다른건 안됨");
+
+          // 사용자가 입력한 값을 다시 받기
+          newPriority = prompt(
+            "우선순위를 수정하시겠습니까\n 낮음, 보통, 높음, 매우 높음 중에 우선사항을 입력하세요 ",
+            tasks[index].priority
+          );
+        }
+
+        // 입력이 취소되지 않았다면 수정된 내용으로 갱신
+        if (newTask !== null && newPriority !== null) {
+          tasks[index].task = newTask;
+          tasks[index].priority = newPriority;
+          updateTaskList();
+        }
+      }
+
+      // 할 일 목록을 정렬하는 함수
+      function sortList() {
+        // 정렬 방식 가져오기
+        let sortType = document.getElementById("sortList").value;
+
+        // 최신순
+        if (sortType === "최신순") {
+          tasks.sort((a, b) => b.timestamp - a.timestamp);
+        }
+        // 오래된순
+        else if (sortType === "오래된순") {
+          tasks.sort((a, b) => a.timestamp - b.timestamp);
+        }
+
+        // 우선순위 낮은순
+        else if (sortType === "우선순위 낮은순") {
+          tasks.sort((a, b) => {
+            let priorityOrder = {
+              낮음: 1,
+              보통: 2,
+              높음: 3,
+              "아주 높음": 4,
+            };
+            return priorityOrder[a.priority] - priorityOrder[b.priority];
+          });
+        }
+        // 우선순위 높은순
+        else if (sortType === "우선순위 높은순") {
+          tasks.sort((a, b) => {
+            let priorityOrder = {
+              낮음: 1,
+              보통: 2,
+              높음: 3,
+              "아주 높음": 4,
+            };
+            return priorityOrder[b.priority] - priorityOrder[a.priority];
+          });
+        }
+
+        // 할 일 목록 갱신
+        updateTaskList();
+      }
+    </script>
+  </body>
+</html>
