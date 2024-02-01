@@ -18,15 +18,15 @@
 - [10일차](#10일차)
 
 ## 1일차
-GITHUB에 프로젝트 레포지토리 만들기
+**GITHUB에 프로젝트 레포지토리 만들기**
 
 ## 2일차
-카운트다운 타이머 만들기
+**카운트다운 타이머 만들기**
 
 ![video1488833296-ezgif com-video-to-gif-converter (1)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/1033d0d7-da9d-4b19-a0a2-184536c02e65)
 
 ## 3일차
-TO-DO LIST만들기
+**TO-DO LIST만들기**
 
 [요약]
 - 할 일 작성 후 우선순위 지정
@@ -43,7 +43,7 @@ TO-DO LIST만들기
 
 
 ## 4일차
-Calander 만들기
+**Calander 만들기**
 
 [요약]
 - 날짜 선택 후 메모 등록
