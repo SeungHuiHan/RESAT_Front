@@ -33,6 +33,26 @@ TO-DO LIST만들기
 
 
 ## 4일차
+Calander 만들기
+
+[요약]
+- 날짜 선택 후 메모 등록
+
+![video1623304314-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/b7e1b413-65f4-488c-80b1-88d920b1627d)
+
+- 메모 목록 삭제
+
+![video2623304314-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/adce124a-d688-45e6-bf01-582d59f6f79e)
+
+-  날짜별로 메모 목록 다름
+
+![video3623304314-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/413f9e9a-0b97-4a95-8210-a42adc21a347)
+
+isuue :sob:
+
+- 메모가 등록되면 캘랜더에 동그라미 표시가 바로 되어야 함-> 바로 표시되지 않고 이전,다음 달을 클릭하고 돌아오면 동그라미 표시가 됨
+
+![video3623304314-ezgif com-crop](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/f2553bb1-60ee-4357-bf45-383f9ae86eef)
 
 ## 5일차
 
