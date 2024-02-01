@@ -5,7 +5,17 @@
  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white)
  ![Css3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white)
 
-	
+##🔍 미리 보기
+- [1일차](#1일차)
+- [2일차](#2일차)
+- [3일차](#3일차)
+- [4일차](#4일차)
+- [5일차](#5일차)
+- [6일차](#6일차)
+- [7일차](#7일차)
+- [8일차](#8일차)
+- [9일차](#9일차)
+- [10일차](#10일차)
 
 ## 1일차
 GITHUB에 프로젝트 레포지토리 만들기
