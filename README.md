@@ -78,7 +78,7 @@ isuue :sob:
 [요약] next, prev버튼 누르면 옆으로 넘어감
 
 ![ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/8cc65bb0-16e6-4e99-a9bd-7f553ac1da3e)
-<직접 찍은 사진들입니다.>
+<직접 찍은 사진입니다.>
 
 
 ## 7일차
