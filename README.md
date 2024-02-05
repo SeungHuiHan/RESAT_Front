@@ -66,7 +66,20 @@ isuue :sob:
 
 ## 5일차
 
+**T미니인턴 서비스 메인페이지 클론**
+![image](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/11ba4c00-ec88-42b8-9d17-0c08aad29bae)
+![image](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/8681da85-b369-464d-9f02-a0e32dc8b968)
+
+
+
 ## 6일차
+**T이미지 슬라이드 (캐러셀) 만들기 1**
+
+[요약] next, prev버튼 누르면 옆으로 넘어감
+
+![ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/8cc65bb0-16e6-4e99-a9bd-7f553ac1da3e)
+<직접 찍은 사진들입니다.>
+
 
 ## 7일차
 
