@@ -82,7 +82,16 @@ isuue :sob:
 
 
 ## 7일차
+**이미지 슬라이드 (캐러셀) 만들기 2**
 
+[요약] 
+- 2초 간격 자동 슬라이드, 마지막 부분이 첫번 이미지로 순환
+
+![Untitledvideo-MadewithClipchamp-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/121bacda-d18a-45c9-95a5-790101adbb7b)
+
+isuue :sob:
+- 화살표 버튼을 누를 시 이전/이후 이미지로 전환이 잘 안됨
+  
 ## 8일차
 
 ## 9일차
