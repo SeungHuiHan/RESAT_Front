@@ -80,6 +80,7 @@ isuue :sob:
 ![ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/8cc65bb0-16e6-4e99-a9bd-7f553ac1da3e)
 <직접 찍은 사진입니다.>
 
+
 ## 7일차
 **이미지 슬라이드 (캐러셀) 만들기 2**
 
@@ -92,6 +93,14 @@ isuue :sob:
 - 화살표 버튼을 누를 시 이전/이후 이미지로 전환이 잘 안됨
   
 ## 8일차
+**만들어진 슬라이드 5일차 미니인턴 클론 페이지에 붙이기**
+
+[요약]
+- 메인 페이지 슬라이드 영역에 이미지 대신 슬라이드 넣기
+- 슬라이드 영역 내 텍스트 워딩은 이미지가 아닌 마크업으로 작성
+![제목 없는 동영상 - Clipchamp로 제작](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/d4e054dc-7e77-4de6-a8b7-0fb814d115db)
+
+
 
 ## 9일차
 
