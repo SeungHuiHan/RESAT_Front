@@ -52,8 +52,54 @@
 
 - 메모 목록 삭제
 
-![video2623304314-ezgif com-video-to-gif-c슬라이드 영역 내 텍스트 워딩은 이미지가 아닌 마크업으로 작성
+![video2623304314-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/adce124a-d688-45e6-bf01-582d59f6f79e)
+
+-  날짜별로 메모 목록 다름
+
+![video3623304314-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/413f9e9a-0b97-4a95-8210-a42adc21a347)
+
+isuue :sob:
+
+- 메모가 등록되면 캘랜더에 동그라미 표시가 바로 되어야 함-> 바로 표시되지 않고 이전,다음 달을 클릭하고 돌아오면 동그라미 표시가 됨
+
+![video3623304314-ezgif com-crop](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/f2553bb1-60ee-4357-bf45-383f9ae86eef)
+
+## 5일차
+
+**미니인턴 서비스 메인페이지 클론**
+![image](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/11ba4c00-ec88-42b8-9d17-0c08aad29bae)
+![image](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/8681da85-b369-464d-9f02-a0e32dc8b968)
+
+
+
+## 6일차
+**이미지 슬라이드 (캐러셀) 만들기 1**
+
+[요약] next, prev버튼 누르면 옆으로 넘어감
+
+![ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/8cc65bb0-16e6-4e99-a9bd-7f553ac1da3e)
+<직접 찍은 사진입니다.>
+
+
+## 7일차
+**이미지 슬라이드 (캐러셀) 만들기 2**
+
+[요약] 
+- 2초 간격 자동 슬라이드, 마지막 부분이 첫번 이미지로 순환
+
+![Untitledvideo-MadewithClipchamp-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/121bacda-d18a-45c9-95a5-790101adbb7b)
+
+isuue :sob:
+- 화살표 버튼을 누를 시 이전/이후 이미지로 전환이 잘 안됨
+  
+## 8일차
+**만들어진 슬라이드 5일차 미니인턴 클론 페이지에 붙이기**
+
+[요약]
+- 메인 페이지 슬라이드 영역에 이미지 대신 슬라이드 넣기
+- 슬라이드 영역 내 텍스트 워딩은 이미지가 아닌 마크업으로 작성
 ![제목 없는 동영상 - Clipchamp로 제작](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/d4e054dc-7e77-4de6-a8b7-0fb814d115db)
+
 
 
 ## 9일차
