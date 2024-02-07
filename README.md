@@ -97,8 +97,7 @@ isuue :sob:
 [요약]
 - 메인 페이지 슬라이드 영역에 이미지 대신 슬라이드 넣기
 - 스라이드 영역 내 텍스트 워딩은 이미지가 아닌 마크업으로 작성
-
-![-Clipchamp-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/d31320d8-4f0a-4fd1-aeb6-6ba813127193)
+![제목 없는 동영상 - Clipchamp로 제작](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/d4e054dc-7e77-4de6-a8b7-0fb814d115db)
 
 
 ## 9일차
