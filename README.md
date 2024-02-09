@@ -117,8 +117,16 @@ isuue :sob:
 **로그인 페이지 만들기**
 
 [요약]
-- ID,PW 값을 임의로 지정합니다.
-- ID,PW 입력창 및 로그인 버튼이 존재합니다.
-- 로그인 버튼 눌렀을 경우, ID/PW 둘 중 하나라도 오기재가 되면 팝업 또는 토스트 알림 (ID 혹은 PW가 잘못되었습니다)이 나옵니다.
-- (선택사항) 토스트 알림이 아닌 유효성이 맞지 않는 것에 해당하는 Input 창 아래에 이유를 표기해주는 방법도 있습니다.
-- 로그인 버튼을 눌렀을 경우, ID/PW가 정확히 일치하면 팝업 토스트 알림 (로그인이 되었습니다)이 나옵니다.
+- ID:0000 PW:aa1@ 임의 지정
+- ID 영어 또는 숫자가 입력 가능
+- 그 외의 입력시, 경고 표시
+![제목 없는 동영상 - Clipchamp로 제작 (2)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/099fc8e4-815d-4cb6-af71-9926ab73ad8a)
+
+- PW 영어, 숫자, 특수문자 포함해야함
+- 포함하지 않으면 경고 표시
+- ID/PW 둘 중 하나라도 맞지 않으면 토스트 알림 표시
+![제목 없는 동영상 - Clipchamp로 제작 (3)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/5f8a8448-6c37-4fba-b6cd-fc912a245097)
+
+- ID/PW가 정확히 일치하면 팝업 토스트 알림 표시 후, 9일차에 만든 홈페이지로 이동
+![제목 없는 동영상 - Clipchamp로 제작 (4)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/1bb0232f-e813-4e08-b505-e340ab976c89)
+
