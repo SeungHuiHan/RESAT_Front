@@ -102,5 +102,34 @@ isuue :sob:
 
 
 ## 9일차
+**반응형 네비게이션 & 메뉴바 만들기**
+
+[요약]
+-  Home, About, Contact, FAQ 네 가지의 메뉴가 존재
+![반응형 네비게이션 메뉴바 이미지1](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/729f953f-cc3e-4e97-9aa3-12cdb9f186d0)
+
+- 화면 크기가 일정 비율 이상 줄어들면 각 메뉴는 햄버거 메뉴로 통합됨
+- 햄버거 메뉴 안에 사이드 바로 Home, About, Contact, FAQ 네 가지 메뉴가 존재
+![-Clipchamp1-ezgif com-video-to-gif-converter](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/aff8e939-fe34-4c46-b310-b2c23a0cbd30)
+
 
 ## 10일차
+**로그인 페이지 만들기**
+
+[요약]
+- ID:0000 PW:aa1@ 임의 지정
+- ID 영어 또는 숫자가 입력 가능
+- 그 외의 입력시, 경고 표시
+![제목 없는 동영상 - Clipchamp로 제작 (5)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/bcc76acf-093a-488c-a008-cfaba6845c6a)
+
+
+- PW 영어, 숫자, 특수문자 포함해야함
+- 포함하지 않으면 경고 표시
+- ID/PW 둘 중 하나라도 맞지 않으면 토스트 알림 표시
+![제목 없는 동영상 - Clipchamp로 제작 (6)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/cab1d32c-d10f-4aa0-9497-e08123a2770f)
+
+
+- ID/PW가 정확히 일치하면 팝업 토스트 알림 표시 후, 9일차에 만든 홈페이지로 이동
+![제목 없는 동영상 - Clipchamp로 제작 (4)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/1bb0232f-e813-4e08-b505-e340ab976c89)
+
+
