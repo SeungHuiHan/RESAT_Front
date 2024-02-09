@@ -120,12 +120,14 @@ isuue :sob:
 - ID:0000 PW:aa1@ 임의 지정
 - ID 영어 또는 숫자가 입력 가능
 - 그 외의 입력시, 경고 표시
-![제목 없는 동영상 - Clipchamp로 제작 (2)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/099fc8e4-815d-4cb6-af71-9926ab73ad8a)
+![제목 없는 동영상 - Clipchamp로 제작 (5)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/bcc76acf-093a-488c-a008-cfaba6845c6a)
+
 
 - PW 영어, 숫자, 특수문자 포함해야함
 - 포함하지 않으면 경고 표시
 - ID/PW 둘 중 하나라도 맞지 않으면 토스트 알림 표시
-![제목 없는 동영상 - Clipchamp로 제작 (3)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/5f8a8448-6c37-4fba-b6cd-fc912a245097)
+![제목 없는 동영상 - Clipchamp로 제작 (6)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/cab1d32c-d10f-4aa0-9497-e08123a2770f)
+
 
 - ID/PW가 정확히 일치하면 팝업 토스트 알림 표시 후, 9일차에 만든 홈페이지로 이동
 ![제목 없는 동영상 - Clipchamp로 제작 (4)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/1bb0232f-e813-4e08-b505-e340ab976c89)
