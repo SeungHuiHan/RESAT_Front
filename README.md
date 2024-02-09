@@ -101,7 +101,25 @@ isuue :sob:
 ![제목 없는 동영상 - Clipchamp로 제작](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/d4e054dc-7e77-4de6-a8b7-0fb814d115db)
 
 
-
 ## 9일차
+**반응형 네비게이션 & 메뉴바 만들기**
+
+[요약]
+-  Home, About, Contact, FAQ 네 가지의 메뉴가 존재
+![반응형 네비게이션 메뉴바 이미지1](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/729f953f-cc3e-4e97-9aa3-12cdb9f186d0)
+
+- 화면 크기가 일정 비율 이상 줄어들면 각 메뉴는 햄버거 메뉴로 통합됨
+- 햄버거 메뉴 안에 사이드 바로 Home, About, Contact, FAQ 네 가지 메뉴가 존재
+
+![제목 없는 동영상 - Clipchamp로 제작 (1)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/0222bfc5-cd51-4615-b6d1-8aa90e1a68c3)
+
 
 ## 10일차
+**로그인 페이지 만들기**
+
+[요약]
+- ID,PW 값을 임의로 지정합니다.
+- ID,PW 입력창 및 로그인 버튼이 존재합니다.
+- 로그인 버튼 눌렀을 경우, ID/PW 둘 중 하나라도 오기재가 되면 팝업 또는 토스트 알림 (ID 혹은 PW가 잘못되었습니다)이 나옵니다.
+- (선택사항) 토스트 알림이 아닌 유효성이 맞지 않는 것에 해당하는 Input 창 아래에 이유를 표기해주는 방법도 있습니다.
+- 로그인 버튼을 눌렀을 경우, ID/PW가 정확히 일치하면 팝업 토스트 알림 (로그인이 되었습니다)이 나옵니다.
