@@ -111,7 +111,7 @@ isuue :sob:
 - 화면 크기가 일정 비율 이상 줄어들면 각 메뉴는 햄버거 메뉴로 통합됨
 - 햄버거 메뉴 안에 사이드 바로 Home, About, Contact, FAQ 네 가지 메뉴가 존재
 ![제목 없는 동영상 - Clipchamp로 제작 (1)](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/0222bfc5-cd51-4615-b6d1-8aa90e1a68c3)
-<img src="[https://user-images.githubusercontent.com/51365114/119627750-716f3100-be47-11eb-8e83-686b23c2c161.png](https://github.com/SeungHuiHan/RESAT_Front/assets/98226400/0222bfc5-cd51-4615-b6d1-8aa90e1a68c3)"  width="200" height="400"/>
+ <img src="[https://user-images.githubusercontent.com/51365114/119627750-716f3100-be47-11eb-8e83-686b23c2c161.png]"  width="400" height="600"/>
 
 ## 10일차
 **로그인 페이지 만들기**
